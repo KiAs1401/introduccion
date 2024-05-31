@@ -1,0 +1,9 @@
+{% extends 'base.html'%}
+
+{% block content %}
+{{post.title}}
+<br>
+{{post.content}}
+<br>
+<a class='text-yellow-400' a href='{% url "blog:home" %}'>Volver</a>
+{% endblock content %}
